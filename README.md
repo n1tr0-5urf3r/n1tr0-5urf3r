@@ -1,10 +1,5 @@
 ### Hi there 👋
 
-<!--
-**n1tr0-5urf3r/n1tr0-5urf3r** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-### Hi there 👋
-
 [![Python](https://img.shields.io/static/v1?label=&message=Python&color=272727&logo=python&logoColor=00ff00&style=for-the-badge)](https://www.python.org)
 [![Java](https://img.shields.io/static/v1?label=&message=Java&color=272727&logo=java&logoColor=00ff00&style=for-the-badge)](https://openjdk.java.net)
 [![Racket](https://img.shields.io/static/v1?label=&message=Racket&color=272727&logo=Racket&logoColor=00ff00&style=for-the-badge)](https://www.racket-lang.org)
