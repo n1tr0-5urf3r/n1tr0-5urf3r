@@ -1,4 +1,6 @@
 ### Hi there 👋
+[![trophy](https://github-profile-trophy.vercel.app/?username=n1tr0-5urf3r&theme=matrix)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 [![Python](https://img.shields.io/static/v1?label=&message=Python&color=272727&logo=python&logoColor=00ff00&style=for-the-badge)](https://www.python.org)
 [![Java](https://img.shields.io/static/v1?label=&message=Java&color=272727&logo=java&logoColor=00ff00&style=for-the-badge)](https://openjdk.java.net)
