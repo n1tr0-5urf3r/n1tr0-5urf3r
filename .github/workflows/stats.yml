@@ -1,0 +1,33 @@
+name: Update stats card
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/stats.py", ".github/workflows/stats.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Render stats card
+        env:
+          # Add a STATS_TOKEN secret (classic PAT, read:user) to include private contributions
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/stats.py "${{ github.repository_owner }}" assets
+
+      - name: Commit if changed
+        run: |
+          git add assets/stats-*.svg
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update stats card"
+          git push
