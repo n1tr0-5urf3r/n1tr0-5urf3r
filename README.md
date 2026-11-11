@@ -44,7 +44,7 @@ I'm a PhD student and research assistant at the [Chair of Communication Networks
 ### 🧰 Tech I use
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,python,ts,react,c,bash,linux,docker,git&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust%2Cpython%2Cts%2Creact%2Cc%2Cbash%2Clinux%2Cdocker%2Cgit&theme=dark" />
   <img src="https://skillicons.dev/icons?i=rust,python,ts,react,c,bash,linux,docker,git&theme=light" alt="Rust, Python, TypeScript, React, C, Bash, Linux, Docker, Git" />
 </picture>
 
